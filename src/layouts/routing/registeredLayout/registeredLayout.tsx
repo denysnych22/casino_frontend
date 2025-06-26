@@ -1,4 +1,4 @@
-import {useCasinoStore} from "../../store/store.ts";
+import {useCasinoStore} from "../../../store/store.ts";
 import {Navigate, Outlet} from "react-router";
 
 export default function RegisteredLayout () {

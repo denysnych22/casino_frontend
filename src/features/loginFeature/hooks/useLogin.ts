@@ -1,6 +1,7 @@
 import type {FormEvent} from "react";
-import useSubmitForm from "../../../hooks/useSubmitForm/useSubmitForm.ts";
+import useSubmitUser from "../../../hooks/useSubmitUser/useSubmitUser.ts";
+
 
 export default function useLogin (e: FormEvent<HTMLFormElement>) {
-    return useSubmitForm(e, 'http://localhost:3000/auth/login')
+    return useSubmitUser(e, 'http://localhost:3000/auth/login')
 }
